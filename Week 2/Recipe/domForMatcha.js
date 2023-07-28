@@ -11,5 +11,9 @@ function strike(element) {
     if (element.innerHTML.slice(0,3) == "<s>") {
         element.innerHTML = element.innerHTML.slice(3, element.innerHTML.length - 4);
     }
-   
+    else {
+        element.innerHTML = "<s>" + element.textContent + "</s>" ;
+    }
+};
+
 
