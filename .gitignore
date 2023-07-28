@@ -1,0 +1,8 @@
+.DS_Store
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+Week 1/weeklyKnowlCheck.js

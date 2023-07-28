@@ -1,0 +1,30 @@
+.font1{
+    font-family: monospace;
+    color:black;
+};
+
+h1{font-size: 45px;}
+h3{font-size: 30px;}
+h4{font-size: 20px;}
+
+.color1{background-color: rgb(117, 143, 106);}
+
+img{width: 32%;}
+
+@media (max-width: 1080px) {
+    img {width: 100%;}
+};
+
+@media (min-width: 1200px) {
+    .color1{background-color: rgb(187, 157, 187);}
+    .font1{color: white;}
+};
+
+button {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+};
+
+
+
